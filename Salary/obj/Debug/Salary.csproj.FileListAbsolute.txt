@@ -1,0 +1,1 @@
+D:\C# files\Salary\Salary\bin\Debug\Salary.exe.config
