@@ -10,27 +10,28 @@ namespace Salary
     {
         public static void Main(string[] args)
         {
-            //Your code goes here
-            int cavab = qazanc(8, 6);
-            Console.WriteLine(cavab);
-            Console.WriteLine(c - x);
-            Console.WriteLine(c - y);
-         }
 
-        public static int qazanc(int gun, int gelir)
-        {
-            int c = gun * gelir;
-            return c;
-            if ((c < 1000)||(c == 1000))
+            int gun_sayi;
+            int gunluk_maas;
+            double vergi;
+            double tamgelir;
+            Console.WriteLine("Gun sayin saxil edin");
+            gun_sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Gunluk Maas Daxil Edin");
+            gunluk_maas = Convert.ToInt32(Console.ReadLine());
+            int ayliq_gelir = gun_sayi * gunluk_maas;
+            if (ayliq_gelir <=1000)
             {
-                int x = 4 * c / 10;
-                return x;
+                vergi = ayliq_gelir * 0.04;
             }
-            if ((c > 1000) || (c == 1000))
+            else
             {
-                int y = 4 * c / 100;
-                return y;
+                vergi = ayliq_gelir * 0.18;
             }
+
+            tamgelir = Convert.ToInt32(ayliq_gelir) - vergi;
+            Console.WriteLine(tamgelir);
+         
         }
     }
 }

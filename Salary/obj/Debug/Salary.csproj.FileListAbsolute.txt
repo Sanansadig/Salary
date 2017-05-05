@@ -1,1 +1,6 @@
 D:\C# files\Salary\Salary\bin\Debug\Salary.exe.config
+D:\C# files\Salary\Salary\bin\Debug\Salary.exe
+D:\C# files\Salary\Salary\bin\Debug\Salary.pdb
+D:\C# files\Salary\Salary\obj\Debug\Salary.csprojResolveAssemblyReference.cache
+D:\C# files\Salary\Salary\obj\Debug\Salary.exe
+D:\C# files\Salary\Salary\obj\Debug\Salary.pdb
